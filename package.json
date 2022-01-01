@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/muhdibee/portfolio/issues"
   },
-  "homepage": "https://github.com/muhdibee/portfolio#readme"
+  "homepage": "https://github.com/muhdibee/portfolio#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
