@@ -42,9 +42,16 @@ header p {
 nav ul {
     font-size: 1.2rem;
     display: flex;
-    justify-content: end;
+    justify-content: right;
 }
 
 nav li {
     margin: .6rem;
+}
+
+.rotate {
+    margin-top: 2rem;
+    font-size: 3rem;
+    opacity: 0.4
+
 }
