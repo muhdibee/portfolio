@@ -1,5 +1,7 @@
 /* Global styles*/
-
+* {
+    margin: 0px;
+}
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
@@ -21,12 +23,16 @@ a {
     color:inherit
 }
 
+.text-center {
+    text-align: center !important;
+}
+
 /* Header section */
 
 header {
-    background-color: #2596be;
+    background-color: #145369;
     padding: 1rem;
-    height: 100vh
+    height: 100vh;
 }
 
 header h1 {
@@ -52,6 +58,38 @@ nav li {
 .rotate {
     margin-top: 2rem;
     font-size: 3rem;
-    opacity: 0.4
+    opacity: 0.4;
 
+}
+
+.about-section {
+    padding: 1rem 0 0 0;
+    text-align: start;
+    opacity: 0.9;
+}
+
+.about-section h2 {
+    margin: 0px;
+    margin-top: 2rem;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.skills-section {
+    background-image: url('images/image_2.jpg');
+    color: #000000;
+    font-size: 1.4rem;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+.skills-section div div {
+    padding: 1rem;
+    margin: 1rem;
+    padding: 0px;
 }
