@@ -93,3 +93,11 @@ nav li {
     margin: 1rem;
     padding: 0px;
 }
+.recent-work {
+    color: #000000;
+}
+
+.recent-work-image img {
+    height: 100%;
+    border-radius: .6rem;
+}
