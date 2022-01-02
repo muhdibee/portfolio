@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     font-size: large;
     color: #ffffff;
     margin: 0px;
@@ -18,13 +18,30 @@ ul {
     padding: 0px;
 }
 
+section {
+    padding-top: 1rem;
+}
+
 a {
     text-decoration: none;
     color:inherit
 }
 
+img {
+    max-width: 100%;
+    margin:1px 0px;
+}
+
 .text-center {
     text-align: center !important;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
 }
 
 /* Header section */
@@ -95,9 +112,24 @@ nav li {
 }
 .recent-work {
     color: #000000;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin: 1rem 0;
 }
 
 .recent-work-image img {
-    height: 100%;
+    /* height: 100%; */
     border-radius: .6rem;
+}
+
+.recent-work-title {
+    font-size: 1.6rem;
+}
+.recent-work-info h4 {
+    font-size: 1.4rem;
+}
+
+.features > li {
+    margin: 1rem 0px;
 }
