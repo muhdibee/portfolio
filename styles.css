@@ -73,10 +73,7 @@ nav li {
 }
 
 .rotate {
-    margin-top: 2rem;
-    font-size: 3rem;
-    opacity: 0.4;
-
+    display: none;
 }
 
 .about-section {
@@ -120,7 +117,7 @@ nav li {
 
 .recent-work-image img {
     /* height: 100%; */
-    border-radius: .6rem;
+    /* border-radius: .2rem; */
 }
 
 .recent-work-title {
@@ -132,4 +129,48 @@ nav li {
 
 .features > li {
     margin: 1rem 0px;
+}
+
+/* Contact us section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100vh;
+    /* color: #ffffff; */
+    background-color: #B1E2D7;
+}
+
+.contact-heading {
+    margin:0;
+    font-size: 4rem;
+}
+
+.contact-text{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+#contact .rotate {
+    display: none;
+}
+
+@media (min-width: 860px) {
+    .rotate {
+        margin: 2rem 4rem rem 0.5rem;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        display: inline;
+        float: left;
+        font-size: 3.2rem;
+        opacity: 0.4;
+    }
+    .about-section p {
+        width: 50%;
+        margin: auto;
+    }
+    header {
+        height: 100%;
+    }
 }
