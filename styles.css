@@ -22,14 +22,16 @@ section {
     padding-top: 1rem;
 }
 
+
 a {
     text-decoration: none;
-    color:inherit
+    color: #069c79;
 }
 
 img {
     max-width: 100%;
     margin:1px 0px;
+    padding: 1px;
 }
 
 .text-center {
@@ -44,6 +46,9 @@ img {
     color: #000000;
 }
 
+.recent-work-info, .recent-work-image {
+    display: inline;
+}
 /* Header section */
 
 header {
@@ -54,6 +59,10 @@ header {
 
 header h1 {
     font-size: 3rem;
+}
+
+header a {
+    color: inherit;
 }
 
 header p {
@@ -125,6 +134,11 @@ nav li {
     font-size: 1.4rem;
 }
 
+.recent-work-image {
+    background-color: lightslategrey;
+    border: lightyellow 2px solid;
+    border-radius: 6px;
+}
 .features > li {
     margin: 1rem 0px;
 }
@@ -164,8 +178,24 @@ nav li {
         font-size: 2.5rem;
         opacity: 0.4;
     }
+    .recent-work {
+        color: #000000;
+        display: flex;
+        width: 100vw;
+        flex-direction: row;
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+    .recent-work-info h4 {
+        width: 40vw;
+    }
+
+    .recent-work-image {
+        width: 55vw;
+    }
     .about-section p {
         width: 50%;
         margin: auto;
     }
+
 }
