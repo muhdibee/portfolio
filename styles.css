@@ -115,11 +115,6 @@ nav li {
     margin: 1rem 0;
 }
 
-.recent-work-image img {
-    /* height: 100%; */
-    /* border-radius: .2rem; */
-}
-
 .recent-work-title {
     font-size: 1.6rem;
 }
@@ -169,8 +164,5 @@ nav li {
     .about-section p {
         width: 50%;
         margin: auto;
-    }
-    header {
-        height: 100%;
     }
 }
