@@ -59,7 +59,6 @@ header h1 {
 header p {
     font-size: 1.6rem;
     padding: 1rem 0;
-    /* border-bottom: 1px solid #ffffff; */
 }
 
 nav ul {
@@ -73,19 +72,23 @@ nav li {
 }
 
 .rotate {
-    display: none;
+    font-size: 3rem;
+    opacity: 0.4;
+    width: auto;
+    height: auto;
+
 }
 
-.about-section {
+/* .about-section {
     padding: 1rem 0 0 0;
     text-align: start;
     opacity: 0.9;
-}
+} */
 
-.about-section h2 {
+/* .about-section h2 {
     margin: 0px;
     margin-top: 2rem;
-}
+} */
 
 .about-section p {
     font-size: 1.2rem;
@@ -153,12 +156,12 @@ nav li {
 
 @media (min-width: 860px) {
     .rotate {
-        margin: 2rem 4rem rem 0.5rem;
+        height: 68vh;
         writing-mode: vertical-lr;
         text-orientation: upright;
         display: inline;
         float: left;
-        font-size: 3.2rem;
+        font-size: 2.5rem;
         opacity: 0.4;
     }
     .about-section p {
