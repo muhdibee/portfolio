@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!-- <link rel="icon" type="image/x-icon" href="./favicon.ico"> -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="./styles.css">
         <title>Muhammad | Portfolio </title>
     </head>
@@ -16,13 +16,13 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-                <h1>Hi! I'm Muhammad</h1>
-                <p>~ I am a React Developer ~</p><hr/>
-                <section class="about-section">
-                    <h3 class="rotate">I make things</h3>
-                    <!-- <h2 class="text-center">About me</h2> -->
-                    <!-- <p>My name is Muhammad Ibrahim, I am a React.js developer, I build responsive mordern web apps following best practices.</p> -->
-                </section>
+            <section class="about-section">
+                <h3 id="make-things" class="rotate">I make things</h3>
+                <img id="my-photo" src="https://avatars.githubusercontent.com/u/47622572?v=4">
+                <h2>Hi! I'm Muhammad</h2>
+                <p>~ I am a React Developer ~</p>
+                <p>My name is Muhammad Ibrahim, I am a React.js developer, I build responsive mordern web apps following best practices.</p>
+            </section>
         </header>
         <section class="skills-section">
             <h2>Skills and tools</h2>
@@ -41,83 +41,7 @@
         <section class="recent-work-section text-black">
             <h3 class="Recent-project-title">Recent Work</h3>
             <hr/>
-                <div class="row recent-work "> <!--work 1 -->
-                    <div class="recent-work-info bg-primary">
-                        <h4>Lite-Weather App</h4>
-                        <p>Vanilla JavaScript application for quering the weather condition of any city around the world</p>
-                        <b>Tools:</b>
-                        <ul class="project-tools">
-                            <li class="project-tool">HTML</li>
-                            <li class="project-tool">CSS</li>
-                            <li class="project-tool">JavaScript</li>
-                            <li class="project-tool">Bootstrap</li>
-                        </ul>
-                        <b>Features:</b>
-                        <ul class="features">
-                            <li>city location</li>
-                            <li>Sky state</li>
-                            <li>Temperature</li>
-                            <li>Humidity</li>
-                            <li>Real time update</li>
-                            <a href="https://liteweatherapp.netlify.app/">Visit application</a>
-                        </ul>
-                    </div>
-                    <div class="recent-work-image bg-secondary">
-                        <img src="./images/liteweatherapp_portrate.png" alt="lite-weather app" />
-                    </div>
-                </div>
-
-            <div class="recent-work"><!--work 2 -->
-                <div class="recent-work-info">
-                    <h4>Kids and me school</h4>
-                    <p>School website</p>
-                    <b>Tools:</b>
-                    <ul class="project-tools">
-                        <li class="project-tool">HTML</li>
-                        <li class="project-tool">CSS</li>
-                        <li class="project-tool">JavaScript</li>
-                        <li class="project-tool">Bootstrap</li>
-                    </ul>
-                    <b>Features:</b>
-                    <ul class="features">
-                        <li>Mobile first responsive design</li>
-                        <li>Shows school location</li>
-                        <li></li>
-                        <li>Humidity</li>
-                        <li>Real time update</li>
-                        <a href="https://liteweatherapp.netlify.app/">Visit application</a>
-                    </ul>
-                </div>
-                <div class="recent-work-image">
-                    <img src="./images/kids-and-me.svg" alt="lite-weather app" />
-                </div>
-            </div>
-
-            <div class="recent-work"> <!--work 3 -->
-                <div class="recent-work-info">
-                    <h4 class="recent-work-title">Lite-Weather App</h4>
-                    <p>Vanilla JavaScript application for quering the weather condition of any city around the world</p>
-                    <b>Tools:</b>
-                    <ul class="project-tools">
-                        <li class="project-tool">HTML</li>
-                        <li class="project-tool">CSS</li>
-                        <li class="project-tool">JavaScript</li>
-                        <li class="project-tool">Bootstrap</li>
-                    </ul>
-                    <b>Features:</b>
-                    <ul class="features">
-                        <li>city location</li>
-                        <li>Sky state</li>
-                        <li>Temperature</li>
-                        <li>Humidity</li>
-                        <li>Real time update</li>
-                        <a href="https://liteweatherapp.netlify.app/">Visit application</a>
-                    </ul>
-                </div>
-                <div class="recent-work-image">
-                    <img src="./images/myreads_portr.svg" alt="lite-weather app" />
-                </div>
-                <div class="recent-work"> <!--work 4 -->
+                <div class="recent-work "> <!--work 1 -->
                     <div class="recent-work-info">
                         <h4>Lite-Weather App</h4>
                         <p>Vanilla JavaScript application for quering the weather condition of any city around the world</p>
@@ -139,10 +63,9 @@
                         </ul>
                     </div>
                     <div class="recent-work-image">
-                        <img src="./images/myreads_portr.svg" alt="lite-weather app" />
+                        <img src="./images/liteweatherapp_portrate.png" alt="lite-weather app" />
                     </div>
                 </div>
-            </div>
         </section>
         <section id="contact" class="text-black">
             <div class="contact-info">
@@ -155,5 +78,4 @@
         </section>
 
     </body>
-    <script src="script.js"></script>
 </html>
