@@ -12,10 +12,11 @@ body {
     text-align: center;
 }
 
-ul {
+ul li, ul a {
     list-style: none;
-    margin:0px;
+    margin:.5rem 0 0 -2rem;
     padding: 0px;
+    font-weight: 500;
 }
 
 section {
@@ -46,7 +47,7 @@ img {
     color: #000000;
 }
 
-/***********************************************************************************************************************
+/**********************************************************************************************************************************************/
 
 /* Header section */
 
@@ -89,19 +90,28 @@ nav li {
     display: none;
 }
 
-#my-photo {
+#profile-photo {
     border-radius: 100px;
 }
-/* .about-section {
-    padding: 1rem 0 0 0;
-    text-align: start;
-    opacity: 0.9;
-} */
 
-/* .about-section h2 {
-    margin: 0px;
-    margin-top: 2rem;
-} */
+/*********************************************************************************************************************************************/
+
+/*   About Section  */
+
+.about-section {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-;
+}
+
+#about-section-info {
+    flex:5;
+    margin-right: rem;
+    align-self: center;
+}
+#about-section-info img, #about-section-info h2, #about-section-info p {
+    text-align: center;
+}
 
 .about-section p {
     font-size: 1.2rem;
@@ -124,6 +134,20 @@ nav li {
     padding: 0px;
 }
 
+/*********************************************************************************************************************************************/
+
+/*   Recent work Section  */
+
+.project-tools, .project-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-features {
+
+}
 .recent-work-title {
     font-size: 1.6rem;
 }
@@ -150,9 +174,7 @@ nav li {
 
 }
 
-/* .recent-work-info h4 {
-    font-size: 1.4rem;
-} */
+/******************************************************************************************************************************************/
 
 /* Contact us section */
 
@@ -179,6 +201,9 @@ nav li {
     display: none;
 }
 
+/**********************************************************************************************************************************************/
+
+/* Larger screens*/
 @media (min-width: 860px) {
     .rotate {
         height: 68vh;
@@ -188,6 +213,9 @@ nav li {
         float: left;
         font-size: 2.5rem;
         opacity: 0.4;
+    }
+    #about-section-info {
+        margin-right: 5rem;
     }
     #make-things {
         display: inline;

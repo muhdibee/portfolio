@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <!-- <link rel="icon" type="image/x-icon" href="./favicon.ico"> -->
         <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="./styles.css">
         <title>Muhammad | Portfolio </title>
@@ -18,49 +17,51 @@
             </nav>
             <section class="about-section">
                 <h3 id="make-things" class="rotate">I make things</h3>
-                <img id="my-photo" src="https://avatars.githubusercontent.com/u/47622572?v=4">
-                <h2>Hi! I'm Muhammad</h2>
-                <p>~ I am a React Developer ~</p>
-                <p>My name is Muhammad Ibrahim, I am a React.js developer, I build responsive mordern web apps following best practices.</p>
+                <div id="about-section-info">
+                    <img id="profile-photo" src="https://avatars.githubusercontent.com/u/47622572?v=4">
+                    <h2>Hi! I'm Muhammad</h2>
+                    <p>~ I am a React Developer ~</p>
+                    <p>My name is Muhammad Ibrahim, I am a React.js developer, I build responsive mordern web apps following best practices.</p>
+                </div>
             </section>
         </header>
         <section class="skills-section">
             <h2>Skills and tools</h2>
-            <div>
-                <div class="skill-card">JavaScript</div>
-                <div class="skill-card">Reactstrap</div>
-                <div class="skill-card">Firebase</div>
-                <div class="skill-card">Nodejs</div>
-                <div class="skill-card">React</div>
-                <div class="skill-card">Redux</div>
-                <div class="skill-card">HTML</div>
-                <div class="skill-card">CSS</div>
-                <div class="skill-card">SASS</div>
-            </div>
+            <ul>
+                <li>JavaScript</li>
+                <li>Firebase</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>Redux</li>
+                <li>Nodejs</li>
+                <li>Bootstrap</li>
+                <li>Reactstrap</li>
+            </ul>
         </section>
-        <section class="recent-work-section text-black">
-            <h3 class="Recent-project-title">Recent Work</h3>
-            <hr/>
+        <section class="recent-work-section text-black"><br>
+            <h1 class="Recent-project-title">Recent Work</h1><hr/>
                 <div class="recent-work "> <!--work 1 -->
                     <div class="recent-work-info">
                         <h4>Lite-Weather App</h4>
                         <p>Vanilla JavaScript application for quering the weather condition of any city around the world</p>
-                        <b>Tools:</b>
+                        <b class="tools">Tools:</b>
                         <ul class="project-tools">
                             <li class="project-tool">HTML</li>
                             <li class="project-tool">CSS</li>
                             <li class="project-tool">JavaScript</li>
                             <li class="project-tool">Bootstrap</li>
                         </ul>
-                        <b>Features:</b>
-                        <ul class="features">
+                        <b class="features">Features:</b>
+                        <ul class="project-features">
                             <li>city location</li>
                             <li>Sky state</li>
                             <li>Temperature</li>
                             <li>Humidity</li>
                             <li>Real time update</li>
-                            <a href="https://liteweatherapp.netlify.app/">Visit application</a>
                         </ul>
+                        <a href="https://liteweatherapp.netlify.app/">Visit application</a>
                     </div>
                     <div class="recent-work-image">
                         <img src="./images/liteweatherapp_portrate.png" alt="lite-weather app" />
