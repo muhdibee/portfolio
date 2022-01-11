@@ -77,6 +77,7 @@ nav ul {
 
 nav li {
     margin: .6rem;
+    list-style: none;
 }
 
 .rotate {
@@ -92,16 +93,6 @@ nav li {
 #my-photo {
     border-radius: 100px;
 }
-/* .about-section {
-    padding: 1rem 0 0 0;
-    text-align: start;
-    opacity: 0.9;
-} */
-
-/* .about-section h2 {
-    margin: 0px;
-    margin-top: 2rem;
-} */
 
 .about-section p {
     font-size: 1.2rem;
@@ -118,10 +109,13 @@ nav li {
     background-attachment:fixed;
 }
 
-.skills-section div div {
-    padding: 1rem;
-    margin: 1rem;
+.skills-section ul li {
+    padding: .6rem;
+    margin: .6rem;
     padding: 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+
 }
 
 .recent-work-title {
