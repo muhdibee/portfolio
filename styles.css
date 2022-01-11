@@ -133,26 +133,27 @@ nav li {
     flex-direction: column;
     justify-content: center;
     font-size: 1.3rem;
-    margin: 1rem 0;
+    margin: .5rem 0;
+    padding:1rem;
+    background-color: #B1E2D7;
+    border-radius: .6rem;
+
 }
 
 .recent-work-info, .recent-work-image {
     width: 80vw;
-    border-radius: 1rem;
     box-shadow: #000000;
     align-self: center;
 }
 .recent-work-info {
+    padding-bottom: 1rem;
     margin-bottom: 1.5rem;
+    border-bottom: #ffffff ridge;
 }
 
 .recent-work-image {
 
 }
-
-/* .recent-work-info h4 {
-    font-size: 1.4rem;
-} */
 
 /* Contact us section */
 
@@ -162,7 +163,7 @@ nav li {
     padding: 1rem;
     height: 100vh;
     /* color: #ffffff; */
-    background-color: #B1E2D7;
+    background-color: #145369;
 }
 
 .contact-heading {
@@ -184,31 +185,49 @@ nav li {
         height: 68vh;
         writing-mode: vertical-lr;
         text-orientation: upright;
-        display: inline;
+        /* display: inline; */
         float: left;
         font-size: 2.5rem;
         opacity: 0.4;
     }
     #make-things {
-        display: inline;
+        display: flex;
+    }
+    .about-section {
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .about-section p {
+        width: 50%;
+        margin: auto;
+    }
+
+    .about-section-info {
+        flex: 2;
+        margin-right: 6rem;
+        /* border-radius: 1.6rem;
+        border: 1px ridge; */
     }
 
     .recent-work {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding: 2rem;
+        margin: 2rem 5rem 5rem 2rem;
     }
 
     .recent-work-info, .recent-work-image {
-        border: 0px;
-        border-radius: 1 rem;
-        margin-top: 1.5rem;
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
     }
 
     .recent-work-info {
         flex: 1 ;
         margin-left: 3rem;
+        border-right: #ffffff 1px solid;
+        border-bottom: 0;
+        padding-right: 2rem;
     }
 
     .recent-work-image {
@@ -217,11 +236,7 @@ nav li {
 
     .recent-work-image {
         height: auto;
-        width: 550px;
-    }
-    .about-section p {
-        width: 50%;
-        margin: auto;
+        width: 250px;
     }
 
 }
