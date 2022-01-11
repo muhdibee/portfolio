@@ -145,6 +145,19 @@ nav li {
     border-bottom: #ffffff ridge;
 }
 
+.features a {
+    border-bottom: #ffffff ridge;
+    padding: 1rem;
+}
+
+.recent-work-info h4 {
+    margin-bottom: .5rem;
+    border-radius: .6rem;
+    border: 1px solid #ffffff;
+    padding: .5rem;
+}
+
+
 .recent-work-image {
 
 }
