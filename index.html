@@ -3,39 +3,128 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Muhammad | Portfolio </title>
         <!-- <link rel="icon" type="image/x-icon" href="./favicon.ico"> -->
+        <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="./styles.css">
+        <title>Muhammad | Portfolio </title>
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recent-work">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-                <h1>Hi! I'm Muhammad</h1>
-                <p>~ I am a React Developer ~</p><hr/>
-                <h3 class="rotate">I make things</h3>
-                <section class="about-section">
-                    <h2 class="text-center">About me</h2>
-                    <p>My name is Muhammad Ibrahim, I am a React.js developer, I build responsive mordern web apps checkout resume <a href="#Resume">here</a></p>
-                </section>
+            <section class="about-section">
+                <h3 id="make-things" class="rotate">I make things</h3>
+                <div class="about-section-info">
+                    <img id="my-photo" src="https://avatars.githubusercontent.com/u/47622572?v=4">
+                    <h2>Hi! I'm Muhammad</h2>
+                    <p>~ I am a React Developer ~</p>
+                    <p>My name is Muhammad Ibrahim, I am a React.js developer, I build responsive mordern web apps following best practices.</p>
+                </div>
+            </section>
         </header>
         <section class="skills-section">
             <h2>Skills and tools</h2>
-            <div>
-                <div class="skill-card">JavaScript</div>
-                <div class="skill-card">Reactstrap</div>
-                <div class="skill-card">Firebase</div>
-                <div class="skill-card">Nodejs</div>
-                <div class="skill-card">React</div>
-                <div class="skill-card">Redux</div>
-                <div class="skill-card">HTML</div>
-                <div class="skill-card">CSS</div>
-                <div class="skill-card">SASS</div>
+            <ul>
+                <li class="skill-card">JavaScript</li>
+                <li class="skill-card">Reactstrap</li>
+                <li class="skill-card">Firebase</li>
+                <li class="skill-card">Nodejs</li>
+                <li class="skill-card">React</li>
+                <li class="skill-card">Redux</li>
+                <li class="skill-card">HTML</li>
+                <li class="skill-card">CSS</li>
+                <li class="skill-card">SASS</li>
+            </ul>
+        </section>
+        <section class="recent-work-section text-black">
+            <h3 id="recent-work" class="Recent-project-title">Recent Work</h3>
+            <hr/>
+            <div class="recent-work"> <!--work 1 -->
+                <div class="recent-work-info">
+                    <h4>My Reads | Book tracking app</h4>
+                    <p>A book tracking app that helps you keep track of your books by categorizing them into three shelves i.e:<br/>
+                        1. Currently reading &nbsp; 2. Want to read &nbsp; 3. Read</p>
+                    <b>Tools:</b>
+                    <ul class="project-tools">
+                        <li class="project-tool">HTML</li>
+                        <li class="project-tool">CSS</li>
+                        <li class="project-tool">JavaScript</li>
+                        <li class="project-tool">React</li>
+                    </ul>
+                    <b>Features:</b>
+                    <ul class="features">
+                        <li>State management</li>
+                        <li>REST api consumption</li>
+                        <li>Real time update</li>
+                        <li>Responsive design</li>
+                        <a href="https://myreads-book-tracking-app.netlify.app/">Visit site</a>
+                    </ul>
+                </div>
+                <div class="recent-work-image">
+                    <img src="./images/myreads_portr.svg" alt="my Reads" />
+                </div>
             </div>
+            <div class="recent-work "> <!--work 2 -->
+                <div class="recent-work-info">
+                    <h4>Lite-Weather App</h4>
+                    <p>Vanilla JavaScript application for quering the weather condition of any city around the world</p>
+                    <b>Tools:</b>
+                    <ul class="project-tools">
+                        <li class="project-tool">HTML</li>
+                        <li class="project-tool">CSS</li>
+                        <li class="project-tool">JavaScript</li>
+                    </ul>
+                    <b>Features:</b>
+                    <ul class="features">
+                        <li>city location</li>
+                        <li>Sky state</li>
+                        <li>Temperature</li>
+                        <li>Humidity</li>
+                        <li>Real time update</li>
+                        <a href="https://liteweatherapp.netlify.app/">Visit site</a>
+                    </ul>
+                </div>
+                <div class="recent-work-image">
+                    <img src="./images/liteweatherapp_portrate.png" alt="lite-weather app" />
+                </div>
+            </div>
+            <div class="recent-work"> <!--work 3 -->
+                <div class="recent-work-info">
+                    <h4>Kids and Me School Web Site</h4>
+                    <p>A school website that provide information about the school including location, galary etc.</p>
+                    <b>Tools:</b>
+                    <ul class="project-tools">
+                        <li class="project-tool">HTML</li>
+                        <li class="project-tool">CSS</li>
+                        <li class="project-tool">JavaScript</li>
+                        <li class="project-tool">Bootstrap</li>
+                    </ul>
+                    <b>Features:</b>
+                    <ul class="features">
+                        <li>School location</li>
+                        <li>Mobile first responsive design</li>
+                        <li>Shows school location</li>
+                        <li>Real time update</li>
+                        <a href="https://kids-and-me-school.netlify.app/">Visit site</a>
+                    </ul>
+                </div>
+                <div class="recent-work-image">
+                    <img src="./images/kids-and-me.svg" alt="Kids and me school" />
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="text-black">
+            <div class="contact-info">
+                <p class="contact-heading">Don't be a <br> stranger</p>
+                <p class="text">Need a developer? let's talk.</p>
+                <p class="text">muhdibee@gmail.com</p>
+                <h3 class="rotate">Contact</h3>
+            </div>
+
         </section>
 
     </body>

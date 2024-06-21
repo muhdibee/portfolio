@@ -26,5 +26,8 @@
   "homepage": "https://github.com/muhdibee/portfolio#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
