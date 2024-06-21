@@ -17,6 +17,10 @@ ul {
     margin:0px;
     padding: 0px;
 }
+/* nav {
+    border-bottom: 1px ridge;
+    box-shadow: 0 1px 2px #ccc;
+} */
 
 section {
     padding-top: 4rem;
@@ -42,6 +46,11 @@ img {
     color: #ffffff;
 }
 
+.text-cyan {
+    color: cyan;
+}
+
+
 .text-black {
     color: #000000;
 }
@@ -53,7 +62,7 @@ img {
 header {
     background-color: #145369;
     padding: 1rem;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header h1 {
@@ -99,7 +108,7 @@ nav li {
 }
 #make-things {
     display: block;
-    margin-right: 3rem;
+    /* margin-right: 3rem; */
 }
 
 #my-photo {
@@ -116,7 +125,8 @@ nav li {
     background-image: url('images/image_2.jpg');
     color: #000000;
     font-size: 1.4rem;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 4rem;
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
@@ -179,6 +189,8 @@ nav li {
 
 #contact {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding: 1rem;
     height: 100vh;
@@ -209,23 +221,22 @@ nav li {
 }
 .about-section {
     display:flex;
+    row-gap: 2rem;
     justify-content: space-between;
 }
 
 .about-section p {
-    width: 50%;
+    width: 65%;
     margin: auto;
 }
 
 .about-section-info {
-    flex: 2;
-    margin-right: 6rem;
+    margin-right: 2rem;
     padding-top: 2rem;
     border-radius: 1.6rem;
     border: 1px ridge;
 }
 @media (min-width: 860px) {
-
     .recent-work {
         display: flex;
         flex-direction: row;
@@ -233,6 +244,7 @@ nav li {
         padding: 2rem;
         margin: 2rem 5rem 5rem 2rem;
     }
+
 
     .recent-work-info {
         flex: 1 ;
