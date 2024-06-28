@@ -107,7 +107,7 @@ nav li {
 }
 
 #my-photo {
-  border-radius: 20px;
+  border-radius: 30px;
   margin-bottom: 15px;
 }
 
@@ -257,33 +257,25 @@ nav li {
   margin-top: 0.5rem;
 }
 
-.project-image-1 {
-  background-image: url("./images/rest-countries-desktop-preview.jpg");
+.project-image {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  /* border: 1px solid black; */
-  border-radius: 1rem;
-}
-.project-image-1:hover {
-  background-image: url("./images/rest-countries-desktop-preview.jpg");
   border-radius: 2rem;
+}
+.project-image-1 {
+  background-image: url("./images/rest-countries-desktop-preview.jpg");
 }
 .project-image-2 {
   background-image: url("./images/ip-address-tracker-desktop-preview.jpg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  /* border: 1px solid black; */
-  border-radius: 1rem;
 }
-.project-image-2:hover {
-  background-image: url("./images/ip-address-tracker-desktop-preview.jpg");
-  border-radius: 2rem;
+.project-image-3 {
+  background-image: url("./images/Locale-desktop.png");
+}
+.project-image-4 {
+  background-image: url("./images/smile-school-image.png");
 }
 
 /* Contact us section */
