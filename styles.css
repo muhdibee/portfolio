@@ -210,11 +210,80 @@ nav li {
 /* recent-work-section */
 
 .project-container {
+  color: #000000;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  gap: 2rem;
   background-color: #b1e2d7;
+  /* width: 98%; */
+  border-radius: 1.5rem;
+  height: max-content;
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.image-container {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
-  margin: 0.5rem;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: white;
+  width: 30rem;
+  height: 30rem;
+  padding: 0.5rem;
+}
+.image-container:hover {
+  background-color: rgb(175, 175, 175);
+  cursor: pointer;
+}
+
+.project-text-container {
+  display: flex;
+  flex-flow: column nowrap;
+  border-left: 1px solid #ffffff;
+  background-color: inherit;
+  width: 30rem;
+  height: auto;
+  pad: 1rem;
+  padding-left: 3%;
+}
+
+.project-text-heading {
+  border: 1px ridge;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.project-image-1 {
+  background-image: url("./images/rest-countries-desktop-preview.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+}
+.project-image-1:hover {
+  background-image: url("./images/rest-countries-desktop-preview.jpg");
+  border-radius: 2rem;
+}
+.project-image-2 {
+  background-image: url("./images/ip-address-tracker-desktop-preview.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+}
+.project-image-2:hover {
+  background-image: url("./images/ip-address-tracker-desktop-preview.jpg");
+  border-radius: 2rem;
 }
 
 /* Contact us section */
