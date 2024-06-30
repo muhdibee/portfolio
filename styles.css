@@ -3,9 +3,12 @@
   margin: 0px;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: large;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+  /* font-size: large; */
+
+  font-family: fantasy;
+  font-weight: lighter;
   color: #ffffff;
   margin: 0px;
   padding: 0px;
@@ -239,24 +242,6 @@ nav li {
   cursor: pointer;
 }
 
-.project-text-container {
-  display: flex;
-  flex-flow: column nowrap;
-  border-left: 1px solid #ffffff;
-  background-color: inherit;
-  width: 30rem;
-  height: auto;
-  pad: 1rem;
-  padding-left: 3%;
-}
-
-.project-text-heading {
-  border: 1px ridge;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-  margin-top: 0.5rem;
-}
-
 .project-image {
   background-size: contain;
   background-position: center;
@@ -265,6 +250,7 @@ nav li {
   height: 100%;
   border-radius: 2rem;
 }
+
 .project-image-1 {
   background-image: url("./images/rest-countries-desktop-preview.jpg");
 }
@@ -276,6 +262,36 @@ nav li {
 }
 .project-image-4 {
   background-image: url("./images/smile-school-image.png");
+}
+
+.project-text-container {
+  display: flex;
+  flex-flow: column nowrap;
+  border-left: 1px solid #ffffff;
+  background-color: inherit;
+  width: 30rem;
+  height: auto;
+  pad: 1rem;
+  padding-left: 3%;
+}
+.project-text-container p,
+.project-text-container .list {
+  text-align: justify;
+  margin: 0 auto;
+  /* border: 1px ridge; */
+  list-style-type: circle;
+  width: 100%;
+  list-style-position: inside;
+}
+.align-left {
+  text-align: left;
+}
+
+.project-text-heading {
+  border: 1px ridge;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 
 /* Contact us section */
