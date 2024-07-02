@@ -1,4 +1,8 @@
 /* Global styles*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0px;
 }
@@ -7,8 +11,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
   /* font-size: large; */
 
-  font-family: fantasy;
-  font-weight: lighter;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   color: #ffffff;
   margin: 0px;
   padding: 0px;
@@ -21,11 +25,20 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-/* nav {
-    border-bottom: 1px ridge;
-    box-shadow: 0 1px 2px #ccc;
-} */
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Roboto Slab", "Courier New", Courier, monospace; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.section-heading,
+.skills-header {
+  font-weight: 600;
+}
 section {
   padding-top: 4rem;
 }
@@ -91,7 +104,6 @@ header p {
 }
 
 nav ul {
-  font-size: 1.2rem;
   display: flex;
   justify-content: right;
 }
@@ -172,7 +184,7 @@ nav li {
 }
 
 .section-heading {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 4rem;
 }
 /* .recent-work {
@@ -277,21 +289,20 @@ nav li {
 .project-text-container p,
 .project-text-container .list {
   text-align: justify;
-  margin: 0 auto;
-  /* border: 1px ridge; */
+  /* margin: 0 auto; */
+  margin-bottom: 2rem;
   list-style-type: circle;
   width: 100%;
-  list-style-position: inside;
+  list-style-position: outside;
 }
-.align-left {
-  text-align: left;
+.project-text-container ul [class="margin-left list"] {
+  margin-left: 4rem;
 }
 
 .project-text-heading {
   border: 1px ridge;
   border-radius: 10px;
   margin-bottom: 1rem;
-  margin-top: 0.5rem;
 }
 
 /* Contact us section */
