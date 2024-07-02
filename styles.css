@@ -385,38 +385,20 @@ p .mail:hover {
   color: cyan;
 }
 
-@media (min-width: 860px) {
-  .recent-work {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2rem;
-    margin: 2rem 5rem 5rem 2rem;
+@media (max-width: 860px) {
+  .project-text-container {
+    border-left: 0px;
   }
-
-  .recent-work-info {
-    flex: 1;
-    margin-left: 3rem;
-    border-right: #ffffff 1px solid;
-    border-bottom: 0;
-    padding-right: 2rem;
-  }
-
-  .recent-work-image {
-    flex: 2;
-  }
-
-  .recent-work-image {
-    height: auto;
-    width: 250px;
+  .rotate {
+    display: none;
   }
 }
 
 @media (max-width: 640px) {
   /* Kids and me. 
-    About
-    Features
-    Tools used */
+  About
+  Features
+  Tools used */
 
   .rotate,
   .footer__title {
@@ -439,4 +421,37 @@ p .mail:hover {
     width: 90%;
     margin: auto;
   }
+
+  .image-container {
+    width: 15rem;
+    height: 15rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 860px) {
+  /* .recent-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 2rem 5rem 5rem 2rem;
+  } */
+
+  /* .recent-work-info {
+    flex: 1;
+    margin-left: 3rem;
+    border-right: #ffffff 1px solid;
+    border-bottom: 0;
+    padding-right: 2rem;
+  } */
+
+  /* .recent-work-image {
+    flex: 2;
+  } */
+
+  /* .recent-work-image {
+    height: auto;
+    width: 250px;
+  } */
 }
