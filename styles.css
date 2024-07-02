@@ -57,6 +57,9 @@ img {
 .text-center {
   text-align: center !important;
 }
+.text-justify {
+  text-align: justify;
+}
 
 .text-white {
   color: floralwhite;
@@ -76,6 +79,8 @@ img {
 
 header {
   background-color: #145369;
+  /* background-color: #061b22; second color*/
+  /* background-color: #0b151a; */
   padding: 1rem;
   min-height: 100vh;
 }
@@ -230,6 +235,7 @@ nav li {
   justify-content: space-around;
   flex-flow: row wrap;
   gap: 2rem;
+  /* background-color: #b1e2d7; */
   background-color: #b1e2d7;
   /* width: 98%; */
   border-radius: 1.5rem;
@@ -341,7 +347,7 @@ nav li {
 .about-section {
   display: flex;
   row-gap: 2rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .about-section p {
@@ -350,7 +356,10 @@ nav li {
 }
 
 .about-section-info {
+  width: 80%;
   margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
   padding-top: 2rem;
   border-radius: 1.6rem;
   border: 1px ridge;
@@ -420,6 +429,11 @@ p .mail:hover {
   .about-section p {
     width: 90%;
     margin: auto;
+  }
+
+  .project-container {
+    margin: 0.5rem;
+    padding: 1.5rem;
   }
 
   .image-container {
